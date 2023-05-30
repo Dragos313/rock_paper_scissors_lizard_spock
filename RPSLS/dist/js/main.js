@@ -256,7 +256,7 @@ const updateWinnerMessage = (winner) => {
 }
 
 const displayComputerChoice = (choice) => {
-    const square = document.getElementById("cp_paper");
+    const square = document.getElementById("cp_scissors");
     createGameImage(choice, square);
 }
 
